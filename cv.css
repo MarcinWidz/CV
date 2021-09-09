@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  width: 864px;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  height: 400px;
+  background-color: red;
+  clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 100%);
+  background: linear-gradient(#2b5876, #4e4376);
+  color: white;
+  display: flex;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: solid 5px white;
+  margin: 20px;
+}
+
+.personal-info-div {
+  margin: 20px;
+}
+
+.personal-info-div h1 {
+  font-size: 42px;
+}
+
+.personal-info-div h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.personal-info-div a {
+  color: white;
+  text-decoration: underline;
+  font-size: 22px;
+  padding: 5px;
+}
+.personal-info-div p {
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+}
+
+.relative {
+  position: relative;
+}
+
+main {
+  position: absolute;
+  bottom: -200px;
+  height: 300px;
+  width: 864px;
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
