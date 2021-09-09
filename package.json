@@ -1,0 +1,20 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build cv.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinWidz/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinWidz/CV/issues"
+  },
+  "homepage": "https://github.com/MarcinWidz/CV#readme"
+}
