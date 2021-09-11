@@ -4,14 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>Vite App</title>
   </head>
   <body class="bg-indigo-100">
-    <div class="bg-indigo-50">
-      <h1>Testing tailwind</h1>
-      <p>Sounds good !!!!</p>
-      <p class="topkek">TOPKEK !</p>
+    <div class="">
+      <header class="sm:flex pt-8 pb-16 text-gray-100 header-gradient clip-header">
+        <img
+          class="w-56 mb-5 border-2 rounded-full border-white mx-auto shadow-xl"
+          width="224"
+          height="224"
+          src="/img/marcin-widz-on-white-background.jpg" alt="Marcin Widz on white background"
+        >
+        <div class="mx-5 text-lg">
+          <h1 class="mb-2 font-nunito font-semibold text-3xl">
+            Développeur Full Stack React
+          </h1>
+          <h2 class="text-2xl tracking-wider">
+            Marcin Widz
+          </h2>
+          <p class="tracking-widest">06 02 71 39 63</p>
+          <p class="tracking-wide">marcin.widz.dev@gmail.com</p>
+          <p class="tracking-wide">14 Boulevard des Mûriers 94210 Saint Maur des Fossés</p>
+        </div>
+      </header>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

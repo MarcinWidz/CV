@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.topkek {
-  background-color: chartreuse;
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-gradient {
+    background: linear-gradient(#2b5876, #4e4376);
+}
+
+.clip-header {
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0 100%);
 }
