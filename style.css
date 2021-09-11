@@ -23,3 +23,7 @@
   background: linear-gradient(to right, #2b5876, #4e4376);
   content: "";
 }
+
+.badge {
+  @apply py-2 mr-2 mb-4 px-6 rounded-full bg-indigo-400 text-white uppercase;
+}
