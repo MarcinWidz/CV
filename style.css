@@ -21,6 +21,10 @@
     }
   }
 
+  .mern-icons {
+    @apply border-2 border-indigo-200 p-1 bg-purple-50 rounded-full;
+  }
+
   .badge {
     @apply py-2 mr-2 mb-4 px-6 rounded-full text-white uppercase shadow hover:ring-4 ring-indigo-400 ring-offset-2 ring-offset-indigo-50 transition;
     background: linear-gradient(theme('colors.indigo.400'), theme('colors.indigo.500'));
