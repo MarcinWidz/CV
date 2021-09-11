@@ -25,5 +25,6 @@
 }
 
 .badge {
-  @apply py-2 mr-2 mb-4 px-6 rounded-full bg-indigo-500 text-white uppercase;
+  @apply py-2 mr-2 mb-4 px-6 rounded-full text-white uppercase shadow;
+  background: linear-gradient(theme('colors.indigo.400'), theme('colors.indigo.500'));
 }
