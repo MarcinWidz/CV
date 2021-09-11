@@ -11,12 +11,12 @@
 }
 
 .clip-header {
-  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
 }
 
 .decoration-line:before {
   position: absolute;
-  top: 14px;
+  top: 17px;
   left: -38px;
   width: 30px;
   height: 2px;
@@ -25,5 +25,5 @@
 }
 
 .badge {
-  @apply py-2 mr-2 mb-4 px-6 rounded-full bg-indigo-400 text-white uppercase;
+  @apply py-2 mr-2 mb-4 px-6 rounded-full bg-indigo-500 text-white uppercase;
 }
