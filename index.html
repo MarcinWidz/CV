@@ -1,236 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./cv.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Marcin Widz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Vite App</title>
   </head>
-  <body>
-    <div id="shadow-hover" class="main-div">
-      <header class="header">
-        <div>
-          <img
-            class="image"
-            src="./assets/216417640_1251272445305266_5770602139746010238_n.jpg"
-            alt="marcin-widz"
-          />
-        </div>
-        <div class="personal-info-div">
-          <h1>Développeur Full Stack React</h1>
-          <h2>Marcin <strong>Widz</strong></h2>
-          <div style="display: flex;">
-            <div>
-              <a href="tel:0602713963">Tel: 06 02 71 39 63</a>
-              <a style="display: block;" href="mailto:marcin.widz.dev@gmail.com"
-                >marcin.widz.dev@gmail.com</a
-              >
-            </div>
-            <div>
-              <a target="_blank" href="https://github.com/MarcinWidz"
-                ><img
-                  style="
-                    width: 25px;
-                    background-color: white;
-                    border-radius: 50%;
-                  "
-                  src="./assets/icons/github-logo_icon-icons.com_73546.png"
-                  alt=""
-                />/marcin-widz</a
-              >
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/marcin-widz-551139217/"
-                ><img
-                  style="
-                    width: 25px;
-                    background-color: white;
-                    border-radius: 10%;
-                  "
-                  src="./assets/icons/linkedin-icon.png"
-                  alt=""
-                />
-                /marcin-widz</a
-              >
-            </div>
-          </div>
-          <p style="font-size: 14px;">
-            Adresse: 14 Boulevard des Mûriers 94210 Saint Maur des Fossés
+  <body class="bg-indigo-50 font-nunito">
+    <div class="">
+      <header class="sm:flex pt-8 pb-16 mb-10 text-gray-100 header-gradient clip-header">
+        <img
+          class="w-56 mb-8 border-4 rounded-full border-white mx-auto shadow-xl"
+          width="224"
+          height="224"
+          src="/img/marcin-widz-on-white-background.jpg" alt="Marcin Widz on white background"
+        >
+        <div class="mx-5 text-lg">
+          <h1 class="mb-6 font-light uppercase text-3xl">
+            Développeur Full Stack <span class="font-bold">REACT</span>
+          </h1>
+          <h2 class="text-2xl mb-5 font-light tracking-wider uppercase">
+            Marcin <span class="font-normal">Widz</span>
+          </h2>
+          <p class="mb-1 tracking-widest">
+            <a href="tel:+33602713963">06 02 71 39 63</a>
           </p>
+          <p class="mb-1 tracking-wide">
+            <a href="mailto:marcin.widz.dev@gmail.com">marcin.widz.dev@gmail.com</a>
+          </p>
+          <p class="tracking-wide">14 Boulevard des Mûriers</p>
+          <p class="tracking-wide">94210 Saint Maur des Fossés</p>
         </div>
       </header>
-      <main>
-        <div class="main-content-div">
-          <h3>
-            Après une reconversion profesionnelle et ma première experience dans
-            une startup je suis à la recherche d'un stage pour mettre en oeuvre
-            mes competences. Je veux approfondir mon expertise mais aussi
-            apprendre les nouvelles technologies. Vous aimez mon profil mais il
-            manque une ou deux technologies pour qu'il soit complet?
-            Contactez-moi quand même! I'm a fast learner, you know :)
-          </h3>
-          <h1>Savoir Faire:</h1>
-          <div style="display: flex;">
-            <div class="icons">
-              <img
-                class="mern"
-                src="./assets/icons/PikPng.com_stack-of-cookies-png_3962104.png"
-                alt=""
-              />
-            </div>
-            <div class="savoir-faire">
-              <p>
-                - Developper les applications web et mobiles full stack avec le
-                MERN Stack
-              </p>
-              <p>
-                - Refléter la vision du web designer au format web sur tous les
-                périphériques.
-              </p>
-              <p>
-                - Rapidement rechercher et implementer les technologies le mieux
-                adaptées au chellenge actuel.
-              </p>
-            </div>
+      <main class="text-gray-900">
+        <section class="mb-16">
+          <h2 class="ml-12 mb-7 text-3xl uppercase tracking-widest decoration-line relative">
+            Savoir faire
+          </h2>
+          <div class="mx-5 text-lg space-y-5">
+            <p>Developper les applications web et mobiles full stack avec la <abbr title="Monogo Express React NodeJS">MERN</abbr> Stack.</p>
+            <p>Refléter la vision du web designer au format web sur tous les périphériques.</p>
+            <p>S'intégrer et travailler en équipe pour éstimer la tache pour satisfaire la deadline.</p>
+            <p>Vendre un produit digital sur des plateforme e-commerces et e-learning.</p>
+            <p>Rapidement rechercher et implementer les technologies le mieux adaptées au challenge actuel.</p>
           </div>
-          <div class="other-technos">
-            <h4>Other technologies:</h4>
-            <img
-              src="./assets/icons/file_type_js_official_icon_130509.png"
-              alt=""
-            /><img
-              src="./assets/icons/file_type_html_icon_130541.png"
-              alt=""
-            /><img
-              src="./assets/icons/file_type_css_icon_130661.png"
-              alt=""
-            /><img
-              src="./assets/icons/toppng.com-react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-986x1055.png"
-              alt=""
-            /><img src="./assets/icons/expo_icon_132404.png" alt="" /><img
-              src=""
-              alt=""
-            /><img
-              src="./assets/icons/android_studio_macos_bigsur_icon_189484.png"
-              alt=""
-            /><img
-              src="./assets/icons/xcode_helper_macos_bigsur_icon_189446.png"
-              alt=""
-            /><img
-              src="./assets/icons/git_original_wordmark_logo_icon_146510.png"
-              alt=""
-            />
-            <img
-              src="./assets/icons/github-logo_icon-icons.com_73546.png"
-              alt=""
-            />
-            <img
-              src="./assets/icons/heroku_plain_logo_icon_146479.png"
-              alt=""
-            />
-          </div>
-          <h1>Expériences:</h1>
-          <div class="experiences">
-            <h3>
-              - Développeur Full Stack chez
-
-              <img
-                class="agorique"
-                src="./assets/icons/cropped-Logo_Agorique_Grand-1.png"
-                alt=""
-              />
-            </h3>
-            <h4 style="margin-left: 20px;">
-              Developpement d'une application mobile avec React Native
-            </h4>
-            <div class="details">
-              <p>
-                -Concevoir et mettre en oeuvre le modèle conceptuel des donnés
+        </section>
+        <section class="mb-16">
+          <h2 class="ml-12 mb-7 text-3xl uppercase tracking-widest decoration-line relative">
+            Expériences
+          </h2>
+          <div class="mx-5 mb-7 text-lg">
+            <p class="mb-1 tracking-widest uppercase text-base font-light">Aout 2021</p>
+            <p class="mb-1 font-semibold text-2xl">
+              Développeur Full Stack
+            </p>
+            <p class="mb-5 text-2xl font-light">Agorique</p>
+            <div class="ml-5">
+              <p class="mb-5">
+                Developpement d'une application mobile React Native pour le recyclage des déchets intéligent.
               </p>
-              <p>
-                -Structurer la base des données et l'implementer avec MongoDB et
-                Mongoose
-              </p>
-              <p>
-                -Mise en page des données recupérés. La création d'une espace
-                blog et l'affichage de la data sur le tableau de bord avec
-                <strong>React Native</strong>
-                Chart Kit
-              </p>
-              <p>
-                -Création des pages de connexion et inscription. Mise en oeuvre
-                de système d'autentification.
-              </p>
-            </div>
-          </div>
-          <div class="formations">
-            <h1>Formation:</h1>
-            <div style="display: flex; align-items: center;">
-              <h4 style="margin-left: 20px;">
-                - Formation développeur web et mobile - Le Reacteur
-              </h4>
-              <img class="reacteur" src="./assets/icons/reacteur.jpeg" alt="" />
-            </div>
-            <div class="details">
-              <p>- Créer des serveurs (APIs) et les déployer</p>
-              <p>
-                - Concevoir et administrer des bases de données situées dans le
-                Cloud
-              </p>
-              <p>
-                - Installer, configurer et utiliser des bibliothèques JavaScript
-              </p>
-              <p>
-                - Utiliser la bibliothèque React pour la création de sites Web
-                dynamiques
-              </p>
-              <p>
-                - Construire des applications Mobile pour iOS et Android avec
-                React Native
-              </p>
-            </div>
-          </div>
-          <div class="interests">
-            <h1>Centres d'intérêt et langues:</h1>
-            <div style="display: flex;">
-              <div
-                style="
-                  border-right: solid 6px #2b5876;
-                  padding-right: 50px;
-                  margin-left: 20px;
-                "
-              >
-                <p>Anglais: <strong>Trilingue</strong></p>
-                <p>Francais: <strong>Trilingue</strong></p>
-                <p>Polonais: <strong>Trilingue</strong></p>
-              </div>
-              <div style="display: flex;">
-                <a
-                  style="text-decoration: underline;"
-                  href="https://www.youtube.com/watch?v=tpkhcVCzugA"
-                  ><img
-                    style="width: 50px; margin-left: 20px;"
-                    src="./assets/icons/youtube_socialnetwork_19998.png"
-                    alt=""
-                /></a>
-                <a
-                  style="text-decoration: underline;"
-                  href="https://www.youtube.com/watch?v=tpkhcVCzugA"
-                  >Musique!!! Si vous voulez pas m'êmbaucher vous pouvez en
-                  moins m'écouter:)</a
-                >
+              <div class="flex justify-between flex-wrap">
+                <p class="badge">React Native</p>
+                <p class="badge">Database architecture</p>
+                <p class="badge">autentification</p>
+                <p class="badge">dashboard</p>
+                <p class="badge">charts</p>
+                <p class="badge">blog</p>
               </div>
             </div>
           </div>
-        </div>
+          <div class="mx-5 mb-7 text-lg">
+            <p class="mb-1 tracking-widest uppercase text-base font-light">2018 - présent</p>
+            <p class="mb-1 font-semibold text-2xl">
+              Vente en ligne
+            </p>
+            <p class="mb-5 text-2xl font-light">Indépendant</p>
+            <div class="ml-5">
+              <h2 class="mb-5">
+                Vente et promotion de ma formation de chant sur diférantes plateformes e-commerce et e-learning.
+              </h2>
+              <div class="flex justify-between flex-wrap">
+                <p class="badge">Marketing</p>
+                <p class="badge">SEO</p>
+                <p class="badge">Udemy</p>
+                <p class="badge">Wordpress</p>
+                <p class="badge">Video editing</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mb-16">
+          <h2 class="ml-12 mb-7 text-3xl uppercase tracking-widest decoration-line relative">
+            Formation
+          </h2>
+          <div class="mx-5 mb-7 text-lg">
+            <p class="mb-1 tracking-widest uppercase font-light text-base">Juin - Septembre 2021</p>
+            <p class="mb-1 font-semibold text-2xl">
+              Bootcamp développeur web et mobile
+            </p>
+            <p class="mb-5 text-2xl font-light">Le Reacteur</p>
+            <div class="ml-5">
+              <div class="flex justify-between flex-wrap">
+                <p class="badge">API</p>
+                <p class="badge">CLOUD</p>
+                <p class="badge">react</p>
+                <p class="badge">nodeJS</p>
+                <p class="badge">Deployement</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-indigo-100 text-lg py-16">
+          <h2 class="ml-12 mb-7 text-3xl uppercase tracking-widest decoration-line relative">
+            à propos
+          </h2>
+          <div class="mx-5 mb-7 text-lg">
+            <p class="mb-3"><span class="uppercase font-bold">Trilingue:</span> Français, Anglais, Polonais</p>
+            <p>
+              Multiinstrumentiste,
+              <a
+                class="text-indigo-600 border-b-2 border-indigo-600"
+                target="_blank"
+                href="https://youtu.be/tpkhcVCzugA"
+              >je fais des cover et chansons originales</a>
+              dans mon propre studio. Je suis diplômé de la plus grande école de chant d'Europe. Je soulève 100kg au squat et aussi ta mère.
+            </p>
+          </div>
+        </section>
       </main>
     </div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

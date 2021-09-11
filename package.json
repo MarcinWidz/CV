@@ -1,20 +1,15 @@
 {
-  "name": "CV",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "cv",
+  "version": "0.0.0",
   "scripts": {
-    "build": "build cv.html"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarcinWidz/CV.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarcinWidz/CV/issues"
-  },
-  "homepage": "https://github.com/MarcinWidz/CV#readme"
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.4"
+  }
 }

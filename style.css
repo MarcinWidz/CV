@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-gradient {
+    background: linear-gradient(#2b5876, #4e4376);
+}
+
+.clip-header {
+  clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
+}
+
+.decoration-line:before {
+  position: absolute;
+  top: 17px;
+  left: -38px;
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(to right, #2b5876, #4e4376);
+  content: "";
+}
+
+.badge {
+  @apply py-2 mr-2 mb-4 px-6 rounded-full text-white uppercase shadow;
+  background: linear-gradient(theme('colors.indigo.400'), theme('colors.indigo.500'));
+}
