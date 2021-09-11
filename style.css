@@ -2,35 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-nunito {
-  font-family: 'Nunito', sans-serif;
+
+@layer components {
+  .decoration-line:before {
+    position: absolute;
+    top: 17px;
+    left: -80px;
+    width: 60px;
+    height: 2px;
+    background-color: hsl(204, 46.6%, 50%);
+    content: "";
+  }
+
+  @screen sm {
+    .decoration-line:before {
+      left: -80px;
+      width: 52px;
+    }
+  }
+
+  .badge {
+    @apply py-2 mr-2 mb-4 px-6 rounded-full text-white uppercase shadow hover:ring-4 ring-indigo-400 ring-offset-2 ring-offset-indigo-50 transition;
+    background: linear-gradient(theme('colors.indigo.400'), theme('colors.indigo.500'));
+  }
 }
 
-.header-gradient {
-    background: linear-gradient(#2b5876, #4e4376);
-}
+@layer utilities {
+  .font-nunito {
+    font-family: 'Nunito', sans-serif;
+  }
 
-.clip-header {
-  clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
-}
+  .text-gradient {
+    background: linear-gradient(to right, hsl(204, 46.6%, 40%), #4e4376);
+    background-clip: text;
+    color: transparent;
+  }
 
-.decoration-line:before {
-  position: absolute;
-  top: 17px;
-  left: -38px;
-  width: 30px;
-  height: 2px;
-  background-color: hsl(204, 46.6%, 50%);
-  content: "";
-}
+  .header-gradient {
+      background: linear-gradient(#2b5876, #4e4376);
+  }
 
-.text-gradient {
-  background: linear-gradient(to right, hsl(204, 46.6%, 40%), #4e4376);
-  background-clip: text;
-  color: transparent;
-}
-
-.badge {
-  @apply py-2 mr-2 mb-4 px-6 rounded-full text-white uppercase shadow hover:ring-4 ring-indigo-400 ring-offset-2 ring-offset-indigo-50 transition;
-  background: linear-gradient(theme('colors.indigo.400'), theme('colors.indigo.500'));
+  .clip-header {
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 100%);
+  }
 }
