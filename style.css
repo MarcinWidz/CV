@@ -20,8 +20,14 @@
   left: -38px;
   width: 30px;
   height: 2px;
-  background: linear-gradient(to right, #2b5876, #4e4376);
+  background-color: hsl(204, 46.6%, 50%);
   content: "";
+}
+
+.text-gradient {
+  background: linear-gradient(to right, hsl(204, 46.6%, 40%), #4e4376);
+  background-clip: text;
+  color: transparent;
 }
 
 .badge {
