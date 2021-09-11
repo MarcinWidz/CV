@@ -13,3 +13,13 @@
 .clip-header {
   clip-path: polygon(0 0, 100% 0%, 100% 93%, 0 100%);
 }
+
+.decoration-line:before {
+  position: absolute;
+  top: 14px;
+  left: -38px;
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(to right, #2b5876, #4e4376);
+  content: "";
+}
